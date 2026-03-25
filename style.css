@@ -1,7 +1,7 @@
 p{
-    color: rgb(135, 71, 71);
+    color: rgb(255, 255, 255);
     font-size: 5vw;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Ruritania;
     background-color: black;
 }
 body{
@@ -10,4 +10,30 @@ body{
 
 #Blumen{
     width: 185vb;
+}
+#spiral{
+    width: 185vb;
+}
+
+#container{
+    display:flex;
+    justify-content: center;
+}
+
+@font-face{
+
+    font-family: Ruritania;
+    src: url(./fonts/Ruritania-Outline.ttf)
+}
+
+
+@font-face {
+    font-family: kingjola;
+    src: url(./fonts/kingjola.ttf)
+}
+
+
+
+.button {
+    width: 10vw;
 }
